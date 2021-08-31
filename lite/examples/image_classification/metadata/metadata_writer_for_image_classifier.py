@@ -62,9 +62,10 @@ class ModelSpecificInfo(object):
 
 
 _MODEL_INFO = {
-    "mobilenet_v1_0.75_160_quantized.tflite":
+    #"mobilenet_v1_0.75_160_quantized.tflite":
+    "lite-model_yolo-v5-tflite_tflite_model_1.tflite":
         ModelSpecificInfo(
-            name="MobileNetV1 image classifier",
+            name="Yolo v5 image classifier",
             version="v1",
             image_width=160,
             image_height=160,
